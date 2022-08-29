@@ -117,7 +117,7 @@ footer {
 
 /* MEDIA QUERY */
 
-@media only screen and (min-width: 1000px) {
+@media only screen and (min-width: 1300px) {
   * {
     overflow: hidden;
   }
@@ -130,6 +130,7 @@ footer {
 
   .mockup {
     width: 48%;
+    min-height: 60%;
     padding-left: 1.5rem;
     padding-right: 1.5rem;
     padding-bottom: 1.5rem;
@@ -142,12 +143,13 @@ footer {
     text-align: left;
     display: flex;
     width: 40%;
+    min-width: 40%;
     margin-left: 58vw;
     margin-top: -45vh;
     padding-left: 2rem;
     padding-right: 2rem;
     float: right;
-    width: 35%;
+    min-height: 12vh;
     font-size: 2.8rem;
     font-family: "Poppins", sans-serif;
   }
@@ -155,6 +157,7 @@ footer {
   p {
     text-align: left;
     width: 32%;
+    min-height: 15vh;
     margin-left: 58.5vw;
     margin-top: 0;
     font-family: "Open Sans", sans-serif;
@@ -182,6 +185,8 @@ footer {
   .icons {
     padding: 2.2rem;
     width: 30%;
+    min-width: 30%;
+    min-height: 40%;
     display: flex;
     justify-content: center;
     margin-right: -70vw;
