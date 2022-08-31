@@ -10,7 +10,7 @@ body {
   font-family: "Poppins", sans-serif;
   text-align: center;
   font-weight: 400;
-  background: no-repeat url("./assets/images/bg-mobile.svg") center;
+  background: no-repeat url("/assets/images/bg-mobile.svg") center;
   background-size: cover;
   background-color: hsl(257, 40%, 49%);
   width: 100vw;
@@ -118,15 +118,24 @@ footer {
 /* MEDIA QUERY */
 
 @media only screen and (min-width: 1300px) {
+  
   * {
     overflow: hidden;
   }
+
+  body {
+  background: no-repeat url("/assets/images/bg-desktop.svg") center;
+  background-size: cover;
+  background-color: hsl(257, 40%, 49%);
+}
+
   .logo {
-    width: 28vw;
-    min-width: 28vw;
+    width: 18rem;
     height: auto;
-    padding-top: 4rem;
-    margin-left: 0;
+    padding-top: 2rem;
+    padding-bottom:0;
+    padding-left:0;
+    margin-left:120px;
   }
 
   .mockup {
@@ -135,7 +144,7 @@ footer {
     padding-left: 1.5rem;
     padding-right: 1.5rem;
     padding-bottom: 1.5rem;
-    padding-top: 1.5rem;
+    padding-top:0rem;
     margin-top: 4rem;
     margin-left: 6vw;
   }
@@ -184,34 +193,23 @@ footer {
   }
 
   .icons {
-    padding: 2.2rem;
-    width: 30%;
-    min-width: 30%;
+    padding: 0;
+    width: 10rem;
     min-height: 40%;
     display: flex;
     justify-content: center;
-    margin-right: -70vw;
-    margin-top: 140px;
+    margin-left:1200px;
+    margin-top:50px;
   }
 
   .icon1,
   .icon2,
   .icon3 {
-    width: 3vw;
-    padding: 1rem;
+    padding:0.5rem;
   }
 
   .attribution {
-    text-align: left;
-    font-family: "Open Sans", sans-serif;
-    color: white;
-    font-size: 1rem;
-    padding-left: 1.5rem;
-    padding-right: 1.5rem;
-    line-height: 1.9rem;
-    margin-top: -10vh;
-    float: left;
-    margin-left: -51vw;
+    display:none;
   }
 }
 
