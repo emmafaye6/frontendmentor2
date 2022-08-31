@@ -10,7 +10,7 @@ body {
   font-family: "Poppins", sans-serif;
   text-align: center;
   font-weight: 400;
-  background: no-repeat url("/assets/images/bg-mobile.svg") center;
+  background: no-repeat url("./images/bg-mobile.svg") center;
   background-size: cover;
   background-color: hsl(257, 40%, 49%);
   width: 100vw;
@@ -124,7 +124,7 @@ footer {
   }
 
   body {
-  background: no-repeat url("/assets/images/bg-desktop.svg") center;
+  background: no-repeat url("./images/bg-desktop.svg") center;
   background-size: cover;
   background-color: hsl(257, 40%, 49%);
 }
